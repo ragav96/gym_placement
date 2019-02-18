@@ -4,7 +4,7 @@ from gym.envs.registration import register
 logger = logging.getLogger(__name__)
 
 register(
-    id='Soccer-v0',
+    id='emptyplacementboard',
     entry_point='gym_placement.envs:rectangleplacementEnv',
     timestep_limit=1000,
     reward_threshold=1.0,
